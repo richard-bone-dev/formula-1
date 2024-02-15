@@ -38,3 +38,12 @@ static Task<double> GetTemperature(string uri)
 
 record WeatherTransformModel(double Temperature);
 ```
+
+### Method
+
+1. Create minimal API's
+2. Add Swagger
+3. Edit method to take 20-30 uris
+4. Create a manager
+5. 
+
