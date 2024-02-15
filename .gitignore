@@ -5,3 +5,5 @@
 /FormulaOneConsole/obj
 /FormulaOneConsole/bin/Debug/net8.0
 .vs
+/FormulaOneTest/bin/Debug/net8.0
+/FormulaOneTest/obj
