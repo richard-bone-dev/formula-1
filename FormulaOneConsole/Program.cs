@@ -2,6 +2,14 @@
 {
     private static void Main(string[] args)
     {
+        var builder = WebApplication.CreateBuilder(args);
+
+        builder.Services.AddEndpointsApiExplorer();
+
+        var app = builder.Build();
+
+        app.Run();
+
         List<string> weatherStationUris = new() {
             @"weatherstation-1",
             @"weatherstation-2",
